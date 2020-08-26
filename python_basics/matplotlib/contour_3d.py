@@ -29,9 +29,13 @@ y = f(x1, x2)
 z=y.reshape(50,50)
 
 ax = plt.subplot(111)
-ax.contour(xv, yv, z, 100, cmap = 'jet')
-ax.set_title('contour');
+ax = plt.axes(projection='3d') 
+#Rotate the initialization to help viewing the graph
+ax.view_init(45, 60)
+ax.contour3D(xv, yv, z, 100, cmap = 'jet')
+ax.set_title('3D contour');
 csfont = {'fontname':'Times New Roman','fontsize':16}
 ax.set_xlabel("x1", **csfont)
 ax.set_ylabel("x2", **csfont)
-fig1.savefig('contour.png')
+ax.set_zlabel("f", **csfont)
+fig1.savefig('contour_3d.png')
