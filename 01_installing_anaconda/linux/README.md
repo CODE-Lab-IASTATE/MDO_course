@@ -40,7 +40,7 @@ Once done, click on the launch option.
 
 Select new file in the top left corner. 
 
-Rename it to hello_world.py and save it to the locaion of your choice.
+Rename it to hello_world.py and save it to the location of your choice.
 
 Type the command print("Hello World!!!")
 
