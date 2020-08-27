@@ -26,6 +26,8 @@ The installer will then prompt you “Do you wish the installer to initialize An
 
 The installation is now done.
 
+Additional information can be found here : https://docs.anaconda.com/anaconda/install/linux/
+
 To lauch anaconda, first open a terminal and type anaconda-navigator.
 
 At the top, select which channel to use. Note, you can download and install multiple versions of anaconda python. 
