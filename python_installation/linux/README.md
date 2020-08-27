@@ -10,7 +10,7 @@ Now open the terminal and move to the location where you have saved the anaconda
 
 Type the command bash Anaconda3-2020.07-Linux-x86_64.sh
 
-The fine name will vary depending on when you are trying to install it.
+The file name will vary depending on when you are trying to install it.
 
 The installer prompts the instruction “In order to continue the installation process, please review the license agreement.” 
 
@@ -28,10 +28,16 @@ The installation is now done.
 
 To lauch anaconda, first open a terminal and type anaconda-navigator.
 
-At the top select which channel to use. You can download and install multiple versions of anaconda python. 
+At the top, select which channel to use. Note, you can download and install multiple versions of anaconda python. 
 
 Select base (root) if you selected default installation as your location. Otherwise select the file name as your option.
 
-To launch spyder, first you need to install it. Click on the intall option under spyder.
+To launch spyder, first you need to install it. Click on the install option under spyder.
 
 Once done, click on the launch option.
+
+Select new file in the top left corner. 
+
+Rename it and save it to the locaion of your choice.
+
+
