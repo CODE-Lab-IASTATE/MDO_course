@@ -14,3 +14,4 @@ ax.set_xlabel('x label')  # x-label
 ax.set_ylabel('y label')  # y-label
 ax.set_title("Simple Plot")  # itle
 ax.legend()  # legend
+fig.savefig('1d_plot.png')
